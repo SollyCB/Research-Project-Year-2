@@ -2,4 +2,4 @@
 
 !.gitignore
 !essay.tex
-!papers/*
+!*/papers/
