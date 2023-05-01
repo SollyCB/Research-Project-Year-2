@@ -320,21 +320,69 @@ while ensuring accuracy). They could even measure the proportion of these intern
 relationships which are constituted by migrant to local ties, and migrant to country of origin 
 ties, (39.4\% and 27.88\% respectively). One would assume that in trying to measure cross-country 
 connections, Kikas et al would have naturally made these same measurements, were the data 
-available. 
+available. This is testament to the effectiveness of the Facebook dataset, but also calls back 
+to the limitations that it imposes on researchers outside of the company. 
+
+The second primary benefit of social media datasets are their detail and accuracy. Chi et al (2020) 
+reproduce the results of Bhagat et al (2016) and Backstrom et al (2012) in computing 
+the shortest path between users, using friendship status as the connecting factor. However, 
+they were able to also analyse the specific bridging effect of migrants, measuring their 
+"betweenness". This was done through measuring the shrinkage of global Facebook graph, 
+with and without migrants (nodes in the graph containing only locals had a larger shortest 
+path than the graph with migrants included). In this way, they were able to clearly 
+demonstrate the effect that migrants have in effectively shrinking the world. This 
+is equivalent to the results of Perkins et al (2013), which also documented the 
+bridging effect of migrants, however that study was only able to measure across country 
+phone traffic, and demonstrate the levels of communication constituted by migrant conversation.
+The researchers were not able to specifically plot the connections between individuals, and 
+measure the paths between them, and observe how migrants influenced these paths. Bhagat et al (2016) 
+and Backstrom et al (2012) were able to make similarly detailed analyses of social connections 
+in their shortest path computations, as they also had access to the Facebook dataset, 
+also demonstrating its usefulness. However, they did not exploit its potential to the 
+degree shown in Chi et al (2020), which again specifically demonstrated how a specific 
+demographic fit into a social network and what effects are caused by their presence. Disregarding 
+the particular interest in migrants, equivalent research could be done using the dataset 
+for any other section of the population (provided they are well enough represented, calling 
+back to the previous criticism of under representation of some groups. For instance it would 
+likely be difficult to make assertions about the effect of any elderly demographic on a social network). 
+
+The final point to focus in on are the especially micro analyses of Chi et al (2020), using 
+"ego networks" to observe the social networks which exist around given individuals. These tests 
+also involved including and removing migrants in order to more clearly demonstrate their 
+impact on the network. The graphs below are from Chi et al section 4.3, "Ego-networks".
+
+\includegraphics[scale=0.7]{graphs_2.png}
+
+In the above figure, violet nodes and edges show connections in the current country and 
+orange are connections in the home country. However this is not the point to focus on: 
+the important aspect is the granularity of the data and its scope. Chi et al (2020) mentions 
+that in order to achieve micro level data, the previous best solution was surveys and interviews, 
+however this has a very limited scope, as the numbers of people available to ask is small 
+compared to any substantial dataset, and it is not feasible for individuals to effectively 
+report the numbers of relationships that they have in their home country and their host country, 
+and then report the degrees of separation between these connections and the broader network. This 
+dataset is able to do exactly that: plot individual relationships and the branching outcomes of  
+these ties as they spread through the network, while also accounting for the effects of 
+specific demographics. There is no other type of data that can achieve this insight, it is 
+unparalleled in the measuring of networks, and individual ties between countries. 
 
 \section{Conclusion}
+
+
 
 \pagebreak 
 \section{Bibliography}
 
-Boyd, D. and Crawford, K., 2012. Critical questions for big data: Provocations for a cultural, technological, and scholarly phenomenon. Information, communication & society, 15(5), pp.662-679.
+Bhagat, S., Burke, M., Diuk, C., Filiz, I.O., Edunov, S.: Three and a half degrees
+of separation. Facebook Research (2016)
+
+Boyd, D. and Crawford, K., 2012. Critical questions for big data: Provocations for a cultural, technological, and scholarly phenomenon. Information, communication \& society, 15(5), pp.662-679.
 
 Bauloz, C., Vathi, Z. and Acosta, D., 2019. Migration, inclusion and social cohesion: Challenges, recent developments and opportunities. World Migration Report 2020, pp.186-206.
 
 Greenwood S, Perrin A and Duggan M (2016) Social Media Update
 2016. Pew Research Center. Available at: http://assets.pewre-
 search.org/wp-content/uploads/sites/14/2016/11/10132827/
-PI_2016.11.11_Social-Media-Update_FINAL.pdf.
 
 Duggan M (2015) Mobile messaging and social media 2015. Pew
 Research Center. Available at: http://www.pewinternet.org/
